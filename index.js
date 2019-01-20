@@ -1,6 +1,5 @@
 require('dotenv').config();
 
-const Canvas = require('canvas');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
