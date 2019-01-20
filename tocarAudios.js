@@ -17,320 +17,84 @@ module.exports = {
         
         verificarComandoSom( msg, command, 'ct', 'audio/ct.mp3' );
         verificarComandoSom( msg, command, 'mimimi', 'audio/mimimi.mp3' );
+        verificarComandoSom( msg, command, 'balboa', 'audio/balboa.mp3' );
+        verificarComandoSom( msg, command, 'lavender', 'audio/lavender.mp3' );
+        verificarComandoSom( msg, command, 'paul', 'audio/paulwalker.mp3' );
+        verificarComandoSom( msg, command, 'nham', 'audio/nham.mp3' );
+        verificarComandoSom( msg, command, 'ogas', 'audio/ogas.mp3' );
+        verificarComandoSom( msg, command, 'transar', 'audio/euquerotransar.mp3' );
+        verificarComandoSom( msg, command, 'crambone', 'audio/crambone.mp3' );
+        verificarComandoSom( msg, command, 'pepemoreno', 'audio/pepemoreno.mp3' );
+        verificarComandoSom( msg, command, 'furao', 'audio/furao.mp3' );
+        //awesome
+        verificarComandoSom( msg, command, 'teclado', 'audio/queissoporra.mp3' );
+        //awesome end
+        verificarComandoSom( msg, command, 'eitaporra', 'audio/eitaporra.mp3' );
+        verificarComandoSom( msg, command, 'cavalo', 'audio/cavalo.mp3' );
+        verificarComandoSom( msg, command, 'pqp', 'audio/putaquepariu.mp3' );
+        verificarComandoSom( msg, command, 'naruto', 'audio/naruto.mp3' );
+        verificarComandoSom( msg, command, 'faustao', 'audio/faustao.mp3' );
+        verificarComandoSom( msg, command, 'gol', 'audio/olhaogol.mp3' );
+        verificarComandoSom( msg, command, 'aguia', 'audio/aguia.mp3' );
+        verificarComandoSom( msg, command, 'porra', 'audio/porra.mp3' );
+        verificarComandoSom( msg, command, 'vento', 'audio/vento.mp3' );
+        verificarComandoSom( msg, command, 'comercu', 'audio/comercu.mp3' );
+        verificarComandoSom( msg, command, 'otavioneto', 'audio/otavioneto.mp3' );
+        verificarComandoSom( msg, command, 'turndown', 'audio/turndown.mp3' );
+        verificarComandoSom( msg, command, 'pumped', 'audio/pumped.mp3' );
+        verificarComandoSom( msg, command, 'bomb', 'audio/bomb.mp3' );
+        verificarComandoSom( msg, command, 'divecorolho', 'audio/divecorolho.mp3' );
+        verificarComandoSom( msg, command, 'trollando', 'audio/trollando.mp3' );
+        verificarComandoSom( msg, command, 'fuckme', 'audio/fuckme.mp3' );
+        verificarComandoSom( msg, command, 'eoq', 'audio/eoq.mp3' );
+        verificarComandoSom( msg, command, 'grossa', 'audio/grossa.mp3' );
+        verificarComandoSom( msg, command, '1100', 'audio/1100_dano.mp3' );
+        verificarComandoSom( msg, command, 'brinks', 'audio/ta_de_brinks.mp3' );
+        verificarComandoSom( msg, command, 'sexo', 'audio/OSEXO.mp3' );
+        verificarComandoSom( msg, command, 'putitrain', 'audio/Putitrain.mp3' );
+        verificarComandoSom( msg, command, 'bronse', 'audio/bronse.mp3' );
+        verificarComandoSom( msg, command, 'cabalo', 'audio/cabalo_imundo.mp3' );
+        verificarComandoSom( msg, command, 'america', 'audio/America.mp3' );
+        verificarComandoSom( msg, command, 'hehehe', 'audio/HEHEHE.mp3' );
+        verificarComandoSom( msg, command, 'show', 'audio/show.mp3' );
+        verificarComandoSom( msg, command, 'body', 'audio/bodybuilder.mp3' );
+        verificarComandoSom( msg, command, 'arquivo', 'audio/arquivox.mp3' );
+        verificarComandoSom( msg, command, 'chola', 'audio/chola.mp3' );
+        verificarComandoSom( msg, command, 'fdp', 'audio/filhodaputa.mp3' );
+        verificarComandoSom( msg, command, 'cheirinho', 'audio/cheirinhodesexo.mp3' );
+        verificarComandoSom( msg, command, 'mamando', 'audio/mamandoeu.mp3' );
+        verificarComandoSom( msg, command, 'rapaz', 'audio/rapaz.mp3' );
+        verificarComandoSom( msg, command, 'BIR', 'audio/bir.mp3' );
+        verificarComandoSom( msg, command, 'tarzan', 'audio/tarzan.mp3' );
+        verificarComandoSom( msg, command, 'frota', 'audio/Frota.mp3' );
+        verificarComandoSom( msg, command, 'viadao', 'audio/viadao.mp3' );
+        verificarComandoSom( msg, command, 'gemido', 'audio/gemido.mp3' );
+        verificarComandoSom( msg, command, 'uva', 'audio/uva.mp3' );
+        verificarComandoSom( msg, command, 'vaisim', 'audio/quenvaidar.mp3' );
+        verificarComandoSom( msg, command, 'sono', 'audio/sonobroxa.mp3' );
+        verificarComandoSom( msg, command, 'paladino', 'audio/danielpaladino.mp3' );
+        verificarComandoSom( msg, command, 'away', 'audio/away.mp3' );
+        verificarComandoSom( msg, command, 'johnny', 'audio/johnnysolo.mp3' );
+        verificarComandoSom( msg, command, 'triple', 'audio/triple.mp3' );
+        verificarComandoSom( msg, command, 'barao', 'audio/barao.mp3' );
+        verificarComandoSom( msg, command, 'huehue', 'audio/ChicoSounds.mp3' );
+        verificarComandoSom( msg, command, 'chico', 'audio/sexoanal.mp3' );
+        verificarComandoSom( msg, command, 'transa', 'audio/transa.mp3' );
+        verificarComandoSom( msg, command, 'akbar', 'audio/akbar.mp3' );
+        verificarComandoSom( msg, command, 'morto', 'audio/morto.mp3' );
+        verificarComandoSom( msg, command, 'whatisaman', 'audio/whatisaman.mp3' );
+        verificarComandoSom( msg, command, 'sadness', 'audio/sadness.mp3' );
+        verificarComandoSom( msg, command, 'dracul', 'audio/dracul.mp3' );
+        verificarComandoSom( msg, command, 'formula1', 'audio/formula1.mp3' );
+        verificarComandoSom( msg, command, 'hornet', 'audio/hornet.mp3' );
+        verificarComandoSom( msg, command, 'kassino', 'audio/kassino.mp3' );
+        verificarComandoSom( msg, command, 'vaidj', 'audio/vaidj.mp3' );
+        verificarComandoSom( msg, command, 'aekassinao', 'audio/aekassinao.mp3' );
+        verificarComandoSom( msg, command, 'bankai', 'audio/bankai.mp3' );
+        verificarComandoSom( msg, command, 'tchau', 'audio/tchau.mp3' );
+        verificarComandoSom( msg, command, 'golfinho', 'audio/golfinho.mp3' );
+        verificarComandoSom( msg, command, 'titanic', 'audio/titanic.mp3' );
+        verificarComandoSom( msg, command, 'elefante', 'audio/elefante.mp3' );
         
-        /*
-        if (equalsIgnoreCase(command, 'mimimi')) {
-            sendAudio(userID, 'audio/mimimi.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'balboa')) {
-            sendAudio(userID, 'audio/balboa.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'lavender')) {
-            sendAudio(userID, 'audio/lavender.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'nham')) {
-            sendAudio(userID, 'audio/nham.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'paul')) {
-            sendAudio(userID, 'audio/paulwalker.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'ogas')) {
-            sendAudio(userID, 'audio/ogas.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'transar')) {
-            sendAudio(userID, 'audio/euquerotransar.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'crambone')) {
-            sendAudio(userID, 'audio/crambone.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'pepemoreno')) {
-            sendAudio(userID, 'audio/pepemoreno.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'furao')) {
-            sendAudio(userID, 'audio/furao.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'teclado')) {
-            sendAudio(userID, 'audio/queissoporra.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'eitaporra')) {
-            sendAudio(userID, 'audio/batida.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'cavalo')) {
-            sendAudio(userID, 'audio/cavalo.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'pqp')) {
-            sendAudio(userID, 'audio/putaquepariu.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'naruto')) {
-            sendAudio(userID, 'audio/naruto.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'faustao')) {
-            sendAudio(userID, 'audio/faustao.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'gool')) {
-            sendAudio(userID, 'audio/olhaogol.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'aguia')) {
-            sendAudio(userID, 'audio/aguia.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'porra')) {
-            sendAudio(userID, 'audio/porra.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'vento')) {
-            sendAudio(userID, 'audio/vento.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'comercu')) {
-            sendAudio(userID, 'audio/comercu.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'otavioneto')) {
-            sendAudio(userID, 'audio/otavioneto.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'turndown')) {
-            sendAudio(userID, 'audio/turndown.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'pumped')) {
-            sendAudio(userID, 'audio/pumped.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'bomb')) {
-            sendAudio(userID, 'audio/bomb.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'divecorolho')) {
-            sendAudio(userID, 'audio/divecorolho.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'trollando')) {
-            sendAudio(userID, 'audio/trollando.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'fuckme')) {
-            sendAudio(userID, 'audio/fuckme.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'eoq')) {
-            sendAudio(userID, 'audio/EOQ.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'grossa')) {
-            sendAudio(userID, 'audio/chupa_grossa_rola.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'hastad')) {
-            sendAudio(userID, 'audio/1100_dano.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'brinks')) {
-            sendAudio(userID, 'audio/ta_de_brinks.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'sexo')) {
-            sendAudio(userID, 'audio/OSEXO.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'putitrain')) {
-            sendAudio(userID, 'audio/Putitrain.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'bronse')) {
-            sendAudio(userID, 'audio/cara_bronse.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'cabalo')) {
-            sendAudio(userID, 'audio/cabalo_imundo.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'america')) {
-            sendAudio(userID, 'audio/America.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'hehehe')) {
-            sendAudio(userID, 'audio/HEHEHE.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'show')) {
-            sendAudio(userID, 'audio/show.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'body')) {
-            sendAudio(userID, 'audio/bodybuilder.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'arquivo')) {
-            sendAudio(userID, 'audio/arquivox.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'chola')) {
-            sendAudio(userID, 'audio/chola.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'fdp')) {
-            sendAudio(userID, 'audio/filhodaputa.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'cheirinho')) {
-            sendAudio(userID, 'audio/cheirinhodesexo.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'mamando')) {
-            sendAudio(userID, 'audio/mamandoeu.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'rapaz')) {
-            sendAudio(userID, 'audio/rapaz.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'BIR')) {
-            sendAudio(userID, 'audio/bir.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'eita')) {
-            sendAudio(userID, 'audio/eitaporra.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'tarzan')) {
-            sendAudio(userID, 'audio/tarzan.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'frota')) {
-            sendAudio(userID, 'audio/Frota.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'viadao')) {
-            sendAudio(userID, 'audio/viadao.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'gemido')) {
-            sendAudio(userID, 'audio/gemido.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'uva')) {
-            sendAudio(userID, 'audio/uva.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'vaisim')) {
-            sendAudio(userID, 'audio/quenvaidar.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'sono')) {
-            sendAudio(userID, 'audio/sonobroxa.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'paladino')) {
-            sendAudio(userID, 'audio/danielpaladino.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'away')) {
-            sendAudio(userID, 'audio/away.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'johnny')) {
-            sendAudio(userID, 'audio/johnnysolo.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'triple')) {
-            sendAudio(userID, 'audio/triple.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'barao')) {
-            sendAudio(userID, 'audio/barao.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'huehue')) {
-            sendAudio(userID, 'audio/ChicoSounds.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'chico')) {
-            sendAudio(userID, 'audio/sexoanal.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'transa')) {
-            sendAudio(userID, 'audio/querosaber.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'akbar')) {
-            sendAudio(userID, 'audio/alahuakbar.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'morto')) {
-            sendAudio(userID, 'audio/morto.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'whatisaman')) {
-            sendAudio(userID, 'audio/whatisaman.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'sadness')) {
-            sendAudio(userID, 'audio/sadness.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'dracul')) {
-            sendAudio(userID, 'audio/dracul.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'formula1')) {
-            sendAudio(userID, 'audio/formula1.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'hornet')) {
-            sendAudio(userID, 'audio/hornet.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'kassino')) {
-            sendAudio(userID, 'audio/kassino.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'vaidj')) {
-            sendAudio(userID, 'audio/vaidj.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'aekassinao')) {
-            sendAudio(userID, 'audio/aekassinao.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'bankai')) {
-            sendAudio(userID, 'audio/ganbate.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'tchau')) {
-            sendAudio(userID, 'audio/tchau.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'golfinho')) {
-            sendAudio(userID, 'audio/golfinho.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'titanic')) {
-            sendAudio(userID, 'audio/titanic.mp3', bot);
-        }
-
-        if (equalsIgnoreCase(command, 'elefante')) {
-            sendAudio(userID, 'audio/elefante.mp3', bot);
-        }
-
-        */
     }
 };
