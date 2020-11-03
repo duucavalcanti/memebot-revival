@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require('./config.json');
+const token = require('./token.json');
 const { prefix } = require('./config.json');
 var tocadorDeAudios = require('./tocarAudios.js');
 const message = new Discord.Message();
@@ -34,5 +34,5 @@ client.on('message', msg => {
 }); 
 
 //AUTH 
-client.login(config.BOT_TOKEN);
+client.login(token.BOT_TOKEN);
 require('http').createServer().listen(); 
