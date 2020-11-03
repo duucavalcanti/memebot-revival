@@ -2,11 +2,12 @@ var fs = require('fs');
 
 function verificarComandoSom(msg, command, comando, dirSom) {
     if (command == comando) {
-        if (msg.member.voiceChannel) {
-            msg.member.voiceChannel.join()
+        //console.log('message:' + JSON.stringify(msg));
+        console.log('member voicechannel : ' + msg.member.voice.channel);
+        if (msg.member.voice.channel) {
+            msg.member.voice.channel.join()
                 .then(connection => {
-                    const stream = fs.createReadStream(dirSom);
-                    connection.playStream(stream);
+                    connection.play(fs.createReadStream(dirSom));
                 });
         }
     }
@@ -80,7 +81,7 @@ module.exports = {
         verificarComandoSom( msg, command, 'huehue', 'audio/ChicoSounds.mp3' );
         verificarComandoSom( msg, command, 'chico', 'audio/sexoanal.mp3' );
         verificarComandoSom( msg, command, 'transa', 'audio/transa.mp3' );
-        verificarComandoSom( msg, command, 'akbar', 'audio/akbar.mp3' );
+        verificarComandoSom( msg, command, 'akbar', 'audio/alahuakbar.mp3' );
         verificarComandoSom( msg, command, 'morto', 'audio/morto.mp3' );
         verificarComandoSom( msg, command, 'whatisaman', 'audio/whatisaman.mp3' );
         verificarComandoSom( msg, command, 'sadness', 'audio/sadness.mp3' );

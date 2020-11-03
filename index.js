@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require('./config.json');
 const { prefix } = require('./config.json');
@@ -10,8 +8,10 @@ client.commands = new Discord.Collection();
 
 //client Connected
 client.on('ready', () => {
-  NotifyChannel = client.channels.find("id", "536313019974811668");
-  NotifyChannel.send("ATENCAO \nTO ON!");
+  //NotifyChannel = client.channels.cache.get("74550791179874304");
+
+  //var canal = msg.channel;
+  //canal.send("ATENCAO \nTO ON!");
 
   console.log('Rodando!');
 });
@@ -28,20 +28,11 @@ client.on('message', msg => {
     canal.send('Pong.');
   }
 
-  //img
-  if (command === 'sapo'){
-    const localFileAttachment = new Discord.Attachment('imgs/sapo.jpg');
-    canal.send(localFileAttachment);
-  }
-
   //audio
   tocadorDeAudios.tocarAudiosFuncao(msg, command);
-
-  
-  
 
 }); 
 
 //AUTH 
-client.login(process.env.BOT_TOKEN);
+client.login(config.BOT_TOKEN);
 require('http').createServer().listen(); 
