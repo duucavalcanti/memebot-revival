@@ -16,7 +16,7 @@ function reproduzirAudio(msg, caminhoArquivoComandoAudio) {
 
 module.exports = {
     tocarAudiosFuncao: function tocarAudios(msg, command) {
-        var caminhoArquivoComandoAudio = carregadorListaComandosAudio.getCaminhocaminhoArquivoComandoAudio(command);
+        var caminhoArquivoComandoAudio = carregadorListaComandosAudio.getCaminhoArquivoComandoAudio(command);
 
         if(caminhoArquivoComandoAudio != null && caminhoArquivoComandoAudio != undefined) {
             reproduzirAudio( msg, caminhoArquivoComandoAudio );
