@@ -31,7 +31,6 @@ client.on('message', msg => {
 
   //audio
   tocadorDeAudios.tocarAudiosFuncao(msg, command);
-
 });
 
 
@@ -39,8 +38,6 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 
   var newUserChannel = newMember.channelID;
   var oldUserChannel = oldMember.channelID;
-
-  console.log('oldUserChannel : ' + oldUserChannel + ' | newUserChannel : ' + newUserChannel);
 
   if (newUserChannel == undefined || newUserChannel != oldUserChannel) {
     var Guild = client.guilds.cache.get("74550791179874304");
@@ -50,13 +47,8 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
     if (canalVozBot != null || canalVozBot != undefined) {
       var arrayCanalVoz = canalVozBot.members.array();
 
-      console.log('Número de usuários no canal de voz: ' + canalVozBot.members.size);
-
       if (canalVozBot.members.size <= 1 && arrayCanalVoz[0].nickname == botNickname) {
-
-        console.log('Só restou o bot no canal de voz, bot saindo.');
         bot.voice.channel.leave();
-
       }
     }
   }
