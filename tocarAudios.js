@@ -5,9 +5,11 @@ function verificarComandoSom(msg, command, comando, dirSom) {
         //console.log('message:' + JSON.stringify(msg));
         console.log('member voicechannel : ' + msg.member.voice.channel);
         if (msg.member.voice.channel) {
+            console.log('quantidade membros:' + JSON.stringify(msg.member.voice.channel.members.size));
             msg.member.voice.channel.join()
                 .then(connection => {
                     connection.play(fs.createReadStream(dirSom));
+                    msg.delete({ timeout: 2000});
                 });
         }
     }
