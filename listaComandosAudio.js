@@ -2,6 +2,7 @@ module.exports = {
 	listaComandosAudio: [
 		{ Comando: 'ct', NomeArquivo: 'ct.mp3' },
 		{ Comando: 'downb', NomeArquivo: 'downb.mp3' },
+		{ Comando: 'teoria', NomeArquivo: 'teoria.mp3' },
 		{ Comando: 'mimimi', NomeArquivo: 'mimimi.mp3' },
 		{ Comando: 'balboa', NomeArquivo: 'balboa.mp3' },
 		{ Comando: 'lavender', NomeArquivo: 'lavender.mp3' },
