@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const token = require('./token.json');
 const { prefix } = require('./config.json');
 var tocadorDeAudios = require('./tocarAudios.js');
+var carregadorListaComandosAudio = require('./carregadorListaComandosAudio.js');
 const { Console } = require("console");
 const { strict } = require("assert");
 const { stringify } = require("querystring");
@@ -24,9 +25,22 @@ client.on('message', msg => {
   var command = args.shift().toLowerCase();
   var canal = msg.channel;
 
-  //img
   if (command === 'ping') {
     canal.send('Pong.');
+  }
+
+  if (command == 'memebot comandos-audio') {
+    var mapCaminhosArquivosComandosAudio = carregadorListaComandosAudio.getMapCaminhosArquivosComandosAudio();
+
+    var mensagemTextoComandos = '```\n';
+
+    for (var comando in mapCaminhosArquivosComandosAudio) {
+      mensagemTextoComandos += '!' + comando + '\n';
+    }
+
+    mensagemTextoComandos += '```';
+
+    canal.send(mensagemTextoComandos);
   }
 
   //audio

@@ -15,7 +15,7 @@ module.exports = {
 		return mapCaminhosArquivosComandosAudio[comando];
 	},
 
-	getMapCaminhoArquivo: function(){
+	getMapCaminhosArquivosComandosAudio: function(){
 		return mapCaminhosArquivosComandosAudio;
 	}
 };
