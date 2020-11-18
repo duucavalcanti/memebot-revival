@@ -21,8 +21,7 @@ client.on('ready', () => {
 //recebimento de mensagem
 client.on('message', msg => {
   if (!msg.content.startsWith(prefix) || msg.author.bot) return;
-  const args = msg.content.slice(prefix.length).split(/ +/);
-  var command = args.shift().toLowerCase();
+  var command = msg.content.slice(prefix.length);
   var canal = msg.channel;
 
   if (command === 'ping') {
