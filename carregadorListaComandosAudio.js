@@ -5,9 +5,11 @@ module.exports = {
 		const NOME_PASTA_ARQUIVOS_AUDIO = 'audio';
 		var listaComandosAudio = require('./listaComandosAudio.js').listaComandosAudio;
 		
-		for (var comandoAudioIndex = 0 ; comandoAudioIndex < listaComandosAudio.length; comandoAudioIndex++){
-			var comandoAudio = listaComandosAudio[comandoAudioIndex];
-			mapCaminhosArquivosComandosAudio[comandoAudio.Comando] = NOME_PASTA_ARQUIVOS_AUDIO + '/' + comandoAudio.NomeArquivo;
+		for (var indiceComandoAudio in listaComandosAudio){
+			var comandoAudio = listaComandosAudio[indiceComandoAudio];
+			var comando = comandoAudio.Comando.toLowerCase();
+
+			mapCaminhosArquivosComandosAudio[comando] = NOME_PASTA_ARQUIVOS_AUDIO + '/' + comandoAudio.NomeArquivo;
 		}
 	},
 
