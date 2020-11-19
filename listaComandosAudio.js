@@ -1,5 +1,7 @@
 module.exports = {
 	listaComandosAudio: [
+		{ Comando: 'fly', NomeArquivo: 'fly.flac' },
+		{ Comando: 'ain', NomeArquivo: 'ain.wav' },
 		{ Comando: 'ct', NomeArquivo: 'ct.mp3' },
 		{ Comando: 'downb', NomeArquivo: 'downb.mp3' },
 		{ Comando: 'teoria', NomeArquivo: 'teoria.mp3' },

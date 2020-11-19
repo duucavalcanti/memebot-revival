@@ -29,17 +29,7 @@ client.on('message', msg => {
   }
 
   if (command == 'memebot comandos-audio') {
-    var mapCaminhosArquivosComandosAudio = carregadorListaComandosAudio.getMapCaminhosArquivosComandosAudio();
-
-    var mensagemTextoComandos = '```\n';
-
-    for (var comando in mapCaminhosArquivosComandosAudio) {
-      mensagemTextoComandos += '!' + comando + '\n';
-    }
-
-    mensagemTextoComandos += '```';
-
-    canal.send(mensagemTextoComandos);
+    canal.send(carregadorListaComandosAudio.getMensagemTextoTodosComandos());
   }
 
   //audio
